@@ -1,5 +1,5 @@
 <com.alipay.infoflow.micro.code.basic.SourceSink: java.lang.String fromSource()> -> _SOURCE_
-<com.alipay.infoflow.micro.code..basic.SourceSink: void toSink(java.lang.String)> -> _SINK_
+<com.alipay.infoflow.micro.code.basic.SourceSink: void toSink(java.lang.String)> -> _SINK_
 
 <com.alipay.infoflow.micro.code.sofa.dataobject.SampleDOSubSink: java.lang.String uuid> -> _SINK_
 <com.alipay.infoflow.micro.code.sofa.dataobject.SampleDOSubSink: java.lang.String name> -> _SINK_

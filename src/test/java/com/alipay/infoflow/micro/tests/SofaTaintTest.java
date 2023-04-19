@@ -4,7 +4,7 @@ import com.alipay.infoflow.micro.code.sofa.dataobject.SampleDTO;
 import com.alipay.infoflow.micro.code.sofa.dataobject.SampleResult;
 import com.alipay.infoflow.micro.code.sofa.facade.SampleFacadeImplWrap;
 import com.alipay.infoflow.util.TestConfig;
-import com.alipay.infoflow.util.TestRunner;
+//import com.alipay.infoflow.util.TestRunner;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 /**
  * SampleTaintTest
  */
-@RunWith(TestRunner.class)
+//@RunWith(TestRunner.class)
 public class SofaTaintTest {
     private static final String QUERY_BY_ID            = "<"+ SampleFacadeImplWrap.class.getName()+": void queryById(java.lang.Integer)>\n";
     private static final String QUERY_BY_NAME          = "<"+ SampleFacadeImplWrap.class.getName()+": void queryByName(java.lang.String)>\n";

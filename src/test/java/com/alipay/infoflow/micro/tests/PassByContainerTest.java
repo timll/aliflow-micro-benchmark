@@ -2,13 +2,13 @@ package com.alipay.infoflow.micro.tests;
 
 import com.alipay.infoflow.micro.code.basic.PassByContainer;
 import com.alipay.infoflow.util.TestConfig;
-import com.alipay.infoflow.util.TestRunner;
+//import com.alipay.infoflow.util.TestRunner;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-@RunWith(TestRunner.class)
+//@RunWith(TestRunner.class)
 public class PassByContainerTest {
   @Test
   public void testNoContainer(){
